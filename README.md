@@ -1,5 +1,5 @@
-# github_cheatsheet
-Cheatsheet of github commands
+# github cheatsheet
+Cheatsheet of git commands
 
 ## Deleting a branch
 
