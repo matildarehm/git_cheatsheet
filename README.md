@@ -1,13 +1,23 @@
 # github cheatsheet
 Cheatsheet of git commands
 
-## Deleting a branch
+# branches
 
-### Deleting a remote branch
+### checking all branches
+```shell
+git branch --all
+```
+
+### deleting a remote branch
 ```shell
 git push --delete origin <branch-name>
 ```
-### Deleting a local branch
+### deleting a local branch
 ```shell
 git branch -D <branch-name>
+```
+# rebasing
+```shell
+git fetch origin
+git rebase origin/master
 ```
