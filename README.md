@@ -20,6 +20,16 @@ git push --delete origin <branch-name>
 ```shell
 git branch -D <branch-name>
 ```
+# commits
+
+### show all commits
+```shell
+git log
+```
+### see who altered file
+```shell
+git blame <file-name>
+```
 # rebasing
 ```shell
 git fetch origin
