@@ -1,5 +1,6 @@
-# github cheatsheet
-Cheatsheet of git commands
+# git cheatsheet
+> Personal cheatsheet of commands that I commonly use when accessing VCS via the command line.
+*(Not comprehensive)*
 
 # branches
 
