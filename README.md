@@ -21,3 +21,10 @@ git branch -D <branch-name>
 git fetch origin
 git rebase origin/master
 ```
+# merging
+
+### merging master into local branch
+```shell
+git fetch origin
+git merge origin/master
+```
