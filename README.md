@@ -7,6 +7,10 @@ Cheatsheet of git commands
 ```shell
 git branch --all
 ```
+### creating a branch
+```shell
+git checkout -b <branch-name>
+```
 
 ### deleting a remote branch
 ```shell
