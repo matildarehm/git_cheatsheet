@@ -43,3 +43,7 @@ git rebase origin/master
 git fetch origin
 git merge origin/master
 ```
+### merge branch into local master
+```shell
+git merge <branch-name>
+```
