@@ -6,7 +6,7 @@
 
 ### create a repo
 ```shell
-git branch --all
+git init
 ```
 # branches
 
