@@ -12,6 +12,9 @@ git init
 ```shell
 git status
 ```
+```shell
+git diff
+```
 # branches
 
 ### checking all branches
