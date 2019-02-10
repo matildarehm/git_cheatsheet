@@ -31,7 +31,10 @@ git log
 ```shell
 git blame <file-name>
 ```
-
+### revert a commit
+```shell
+git revert <commit-name>
+```
 # rebasing
 ```shell
 git fetch origin
