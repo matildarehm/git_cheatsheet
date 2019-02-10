@@ -2,6 +2,12 @@
 > Personal cheatsheet of commands that I commonly use when accessing VCS via the command line.
 *(Not comprehensive)*
 
+# initialization
+
+### create a repo
+```shell
+git branch --all
+```
 # branches
 
 ### checking all branches
@@ -34,6 +40,7 @@ git blame <file-name>
 ### revert a commit
 ```shell
 git revert <commit-name>
+git reset --hard <commit-name>
 ```
 # rebasing
 ```shell
