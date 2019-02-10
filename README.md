@@ -36,6 +36,11 @@ git blame <file-name>
 git fetch origin
 git rebase origin/master
 ```
+### rebasing conflicts
+```shell
+git rebase --abort
+```
+
 # merging
 
 ### merging master into local branch
