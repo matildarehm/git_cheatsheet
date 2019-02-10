@@ -10,9 +10,8 @@ git init
 ```
 # tracking changes
 ```shell
-git status
-```
-```shell
+git status 
+**or**
 git diff
 ```
 # branches
