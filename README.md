@@ -8,6 +8,10 @@
 ```shell
 git init
 ```
+# tracking changes
+```shell
+git status
+```
 # branches
 
 ### checking all branches
