@@ -39,6 +39,7 @@ git rebase origin/master
 ### rebasing conflicts
 ```shell
 git rebase --abort
+git rebase --continue
 ```
 
 # merging
