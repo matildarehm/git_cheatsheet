@@ -47,3 +47,8 @@ git merge origin/master
 ```shell
 git merge <branch-name>
 ```
+
+### merge conflicts
+```shell
+git rm <file-name>
+```
