@@ -12,7 +12,6 @@ git branch --all
 ```shell
 git checkout -b <branch-name>
 ```
-
 ### deleting a remote branch
 ```shell
 git push --delete origin <branch-name>
@@ -21,6 +20,7 @@ git push --delete origin <branch-name>
 ```shell
 git branch -D <branch-name>
 ```
+
 # commits
 
 ### show all commits
@@ -31,6 +31,7 @@ git log
 ```shell
 git blame <file-name>
 ```
+
 # rebasing
 ```shell
 git fetch origin
@@ -53,8 +54,14 @@ git merge origin/master
 ```shell
 git merge <branch-name>
 ```
-
 ### merge conflicts
 ```shell
 git rm <file-name>
+```
+
+# undoing
+
+### undoing all lcoal changes before last commit
+```shell
+git reset --hard HEAD
 ```
