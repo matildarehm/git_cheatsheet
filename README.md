@@ -46,6 +46,7 @@ git blame <file-name>
 ### revert a commit
 ```shell
 git revert <commit-name>
+**or**
 git reset --hard <commit-name>
 ```
 # rebasing
@@ -56,6 +57,7 @@ git rebase origin/master
 ### rebasing conflicts
 ```shell
 git rebase --abort
+**or**
 git rebase --continue
 ```
 
