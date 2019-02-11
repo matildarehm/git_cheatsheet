@@ -1,5 +1,5 @@
 # git cheatsheet
-> Personal cheatsheet of commands that I commonly use when accessing VCS via the command line.
+Personal cheatsheet of commands that I commonly use when accessing VCS via the command line.
 *(Not comprehensive)*
 
 # initialization
