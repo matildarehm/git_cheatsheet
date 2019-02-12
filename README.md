@@ -9,7 +9,7 @@ Personal cheatsheet of commands that I commonly use when accessing VCS via the c
 git init
 git add .
 git commit -m <commit-msg>
-git remote add origin <repsoitory-url>
+git remote add origin <repository-url>
 git remote -v
 git push -u origin master
 ```
