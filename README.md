@@ -7,6 +7,11 @@ Personal cheatsheet of commands that I commonly use when accessing VCS via the c
 ### create a repo
 ```shell
 git init
+git add .
+git commit -m <commit-msg>
+git remote add origin <repsoitory-url> **ssh**
+git remote -v
+git push -u origin master
 ```
 # tracking changes
 ```shell
