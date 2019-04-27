@@ -54,6 +54,11 @@ git revert <commit-name>
 **or**
 git reset --hard <commit-name>
 ```
+### remove uncommitted file
+```shell
+git rm <file-name>
+
+```
 # rebasing
 ```shell
 git fetch origin
