@@ -6,6 +6,7 @@ Personal cheatsheet of commands that I commonly use when accessing VCS via the c
 
 ### create a repo
 ```shell
+touch README.md
 git init
 git add .
 git commit -m <commit-msg>
@@ -13,6 +14,13 @@ git remote add origin <repository-url>
 git remote -v
 git push -u origin master
 ```
+# push an existing repo
+ 
+´´´shell
+git remote add origin <repository-url>
+git push -u origin master
+´´´
+
 # tracking changes
 ```shell
 git status 
